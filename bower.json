@@ -1,0 +1,18 @@
+{
+  "name": "workspace",
+  "version": "0.0.0",
+  "authors": [
+    "mzadig <m.zadig@comcast.net>"
+  ],
+  "description": "Job Finding app",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.2.0",
+    "angular": "~1.4.9",
+    "bootstrap": "~3.3.6"
+  }
+}
