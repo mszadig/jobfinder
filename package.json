@@ -10,7 +10,9 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.13.4",
-    "jade": "^1.11.0"
+    "jade": "^1.11.0",
+    "kerberos": "0.0.18",
+    "mongoose": "^4.3.7"
   },
   "devDependencies": {
     "bower": "^1.7.7"
