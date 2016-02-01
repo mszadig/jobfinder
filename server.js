@@ -32,7 +32,7 @@ app.get('*', function(req,res){
 //mongoose.connect('mongodb://sa2:*administrator*@ds051575.mongolab.com:51575/jobfinder-mz');
 
 
-jobsData.connectDB('mongodb://localhost/jobfinder').then(function(){
+jobsData.connectDB('mongodb://sa2:*administrator*@ds051575.mongolab.com:51575/jobfinder-mz').then(function(){
         console.log('connected to mongodb successfully!');
         //console.log("foo value = " + jobsData.foo());
     jobsData.seedJobs();
